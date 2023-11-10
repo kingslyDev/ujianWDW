@@ -1,19 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+}
 
 .navbar {
   background-color: #2dacb4;
 }
 
 .navbar-brand {
-  font-family: 'Kenia', sans-serif;
+  font-family: "Kenia", sans-serif;
   font-size: 200%;
 }
 
 .nav-link {
-  font-family: 'Kenia', sans-serif;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Kenia", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 /* CARAOUSEL  */
@@ -25,12 +30,17 @@
 }
 
 .wrapper {
-  width: 1331px;
+  width: 80%;
   margin: auto;
   margin-top: 50px;
   border-radius: 10px;
   overflow: hidden;
   border: 6px solid;
+}
+
+.wrapper .slides .images img {
+  height: 400px;
+  width: 100%;
 }
 
 #slide-1:target ~ .images {
@@ -82,27 +92,19 @@
 
 /* BUTTON LINKED */
 
+/* BUTTON LINKED */
+
 .buttonlink {
-  font-size: larger;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  margin-top: 150px;
-  text-align: center;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 10rem;
 }
 
 .btn-warning {
-  background-color: #2dacb4;
-  border-color: #2dacb4;
-  font-family: 'Anton', sans-serif;
-  font-family: 'Kenia', sans-serif;
-  font-family: 'Nanum Gothic', sans-serif;
-  text-align: center;
-  font-size: larger;
-  width: 100px;
-  height: 10px;
+  font-size: 25px;
+  background-color: #1c5561;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
 }
-
-/* BUTTON LINKED */
