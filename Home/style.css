@@ -108,3 +108,19 @@ body {
   border: none;
   padding: 10px 40px;
 }
+
+section {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 7rem;
+  row-gap: 2rem;
+  padding: 0 7%;
+}
+
+section div {
+  background-color: red;
+  height: 60px;
+  width: 240px;
+}
