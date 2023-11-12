@@ -39,9 +39,8 @@ body {
 }
 
 .wrapper .slides .images img {
-  height: 440px;
-  width: 1331px;
-  scroll-padding-top: 10px;
+  height: 400px;
+  width: 80%;
 }
 
 #slide-1:target ~ .images {
@@ -53,15 +52,15 @@ body {
 }
 
 #slide-3:target ~ .images {
-  margin-left: -190%;
+  margin-left: -200%;
 }
 
 #slide-4:target ~ .images {
-  margin-left: -293%;
+  margin-left: -300%;
 }
 
 #slide-5:target ~ .images {
-  margin-left: -388%;
+  margin-left: -400%;
 }
 
 .navigation a {
