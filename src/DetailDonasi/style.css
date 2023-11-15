@@ -5,8 +5,13 @@
 @font-face {
   font-family: 'Handmade';
   src: url(/font/Handmade.otf) format('opentype');
-  font-family: 'Letters for Learners';
-  src: url(/font/Letters\ for\ Learners.ttf) format('woff');
+  font-family: 'OldNewspaperTypes';
+  src: url(/font/OldNewspaperTypes.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'adventpro-light';
+  src: url(/font/adventpro-light.ttf) format('woff');
 }
 
 body {
@@ -47,7 +52,7 @@ body {
 }
 
 h1 {
-  font-family: 'Handmade', sans-serif;
+  font-family: 'OldNewspaperTypes', sans-serif;
   float: right;
   text-decoration: underline;
   text-decoration-color: red;
@@ -58,7 +63,7 @@ h1 {
 }
 
 p {
-  font-family: 'Letters for Learners', sans-serif;
+  font-family: 'adventpro-light', sans-serif;
   font-size: 22px;
   margin-top: 90px;
   text-justify: auto;
@@ -87,4 +92,34 @@ hr {
   line-height: 30px;
   color: white;
   border-radius: 15px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-size: 1.5em;
+  padding: 15px 20px;
+  border-radius: 40px;
+  margin: 15px;
+  cursor: pointer;
+  width: 300px; /* Menyesuaikan lebar */
+  height: 80px; /* Menyesuaikan tinggi */
+}
+
+.btn-custom.active {
+  background-color: rgb(14, 255, 150);
+  color: black;
+  border: solid #ee9515;
+  border-radius: 26px;
+}
+
+h2 {
+  margin: 15px;
 }
