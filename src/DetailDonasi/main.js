@@ -27,34 +27,36 @@ function changeColor(btn) {
 }
 
 function selectAmount(amount, button) {
-  changeColor(button); 
+  changeColor(button);
   selectedAmount = amount;
   document.getElementById('continueButton').style.display = 'block';
 }
 
 function continueToNextPage() {
   let nextPage = '';
+  const basePath = '/src/Payment/'; // Ganti dengan path direktori Anda
+
   switch (selectedAmount) {
     case 10000:
-      nextPage = 'button1.html';
+      nextPage = basePath + 'button1.html';
       break;
     case 25000:
-      nextPage = 'button2.html';
+      nextPage = basePath + 'button2.html';
       break;
     case 50000:
-      nextPage = 'button3.html';
+      nextPage = basePath + 'button3.html';
       break;
     case 100000:
-      nextPage = 'button4.html';
+      nextPage = basePath + 'button4.html';
       break;
     case 200000:
-      nextPage = 'button5.html';
+      nextPage = basePath + 'button5.html';
       break;
     case 500000:
-      nextPage = 'button6.html';
+      nextPage = basePath + 'button6.html';
       break;
     default:
-      nextPage = 'index.html';
+      nextPage = basePath + 'index.html';
   }
 
   if (selectedAmount !== 0) {

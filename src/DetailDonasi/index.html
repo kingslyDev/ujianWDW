@@ -35,7 +35,7 @@
     </nav>
     <!-- AKHIR NAVBAR -->
 
-    <!-- POSTER -->
+    <!-- AWAL SEKILAS -->
     <div class="fotodonasi">
       <img src="/img/donasi/palestine.jpg" />
       <h1>Warga Palestina Butuh Bantuan Kita</h1>
@@ -48,7 +48,7 @@
       </p>
       <hr />
     </div>
-    <!-- END POSTER -->
+    <!-- AKHIR SEKILAS -->
 
     <!-- PROGGRESBAR -->
 
@@ -60,8 +60,8 @@
 
     <!-- AWAL BUTTON NOMINAL -->
 
-    <div class="container">
-      <h2>Silakan Pilih Nominal:</h2>
+    <div class="container1">
+      <h2>Nominal Donasi</h2>
       <div class="button-row" id="buttonRow">
         <!-- Baris 1 -->
         <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(10000, this)">Rp10.000</button>
@@ -72,7 +72,9 @@
         <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(200000, this)">Rp200.000</button>
         <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(500000, this)">Rp500.000</button>
       </div>
-      <button id="continueButton" onclick="continueToNextPage()" sss>Lanjut</button>
+      <div class="nextbut">
+        <button id="continueButton" class="buttonnext" onclick="continueToNextPage()">LANJUT PEMBAYARAN</button>
+      </div>
     </div>
     <!-- AKHIR BUTTON NOMINAL -->
   </body>
