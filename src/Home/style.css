@@ -130,10 +130,51 @@ section.ruang-ngaji {
   padding: 0 7%;
 }
 
-section.ruang-ngaji div {
-  background-color: red;
-  height: 60px;
+section.ruang-ngaji div.song {
+  background-color: rgb(228, 228, 228);
+  height: 65px;
   width: 240px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+div.song:hover i {
+  animation: SlideUp 0.5s ease-in-out forwards;
+}
+
+div.song h4 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.song p {
+  font-size: 15px;
+}
+
+div.song i {
+  font-size: 33px;
+  color: #2dacb4;
+  cursor: pointer;
+  opacity: 0;
+}
+
+div.song i:hover {
+  font-size: 35px;
+}
+
+@keyframes SlideUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 section.ruang-donasi {
