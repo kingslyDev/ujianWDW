@@ -3,20 +3,36 @@ const IsNgaji = document.querySelector(".ruang-ngaji");
 const HideDonasi = document.querySelector(".donasi");
 const IsDonasi = document.querySelector(".ruang-donasi");
 
-HideNgaji.addEventListener("click", () => {
-  if (IsNgaji.style.display === "none" || IsNgaji.style.display === "") {
-    IsNgaji.style.display = "flex";
-    IsDonasi.style.display = "none";
+const hideElement = (donasi, ngaji) => {
+  if (ngaji.style.display === "none" || ngaji.style.display === "") {
+    ngaji.style.display = "flex";
+    donasi.style.display = "none";
   } else {
-    IsNgaji.style.display = "none";
+    ngaji.style.display = "none";
   }
+};
+
+HideNgaji.addEventListener("click", () => {
+  hideElement(IsDonasi, IsNgaji);
 });
 
 HideDonasi.addEventListener("click", () => {
-  if (IsDonasi.style.display === "none" || IsDonasi.style.display === "") {
-    IsDonasi.style.display = "flex";
-    IsNgaji.style.display = "none";
+  hideElement(IsNgaji, IsDonasi);
+});
+
+let IsPlaying = false;
+const togglePlayPause = document.getElementById("icon");
+const IsAudio = document.getElementById("audio");
+
+togglePlayPause.addEventListener("click", () => {
+  if (IsPlaying) {
+    togglePlayPause.classList.remove("bi-pause-circle-fill");
+    togglePlayPause.classList.add("bi-play-circle-fill");
+    IsAudio.pause();
   } else {
-    IsDonasi.style.display = "none";
+    togglePlayPause.classList.remove("bi-play-circle-fill");
+    togglePlayPause.classList.add("bi-pause-circle-fill");
+    IsAudio.play();
   }
+  IsPlaying = !IsPlaying;
 });
