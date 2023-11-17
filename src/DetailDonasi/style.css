@@ -10,8 +10,8 @@
 }
 
 @font-face {
-  font-family: 'adventpro-light';
-  src: url(/font/adventpro-light.ttf) format('woff');
+  font-family: 'Helvetica';
+  src: url(/font/Helvetica.otf) format('woff');
 }
 
 body {
@@ -63,8 +63,8 @@ h1 {
 }
 
 p {
-  font-family: 'adventpro-light', sans-serif;
-  font-size: 22px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
   margin-top: 90px;
   text-justify: auto;
 }
@@ -136,9 +136,5 @@ h2 {
 
 .nextbut {
   margin: 40px;
-  margin-left: 200px;
-}
-
-.container1 {
-  margin: 90px;
+  margin-left: 330px;
 }
