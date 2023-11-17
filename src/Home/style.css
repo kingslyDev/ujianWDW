@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
 
 body {
   padding: 0;
@@ -14,13 +13,13 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Kenia', sans-serif;
+  font-family: "Kenia", sans-serif;
   font-size: 200%;
 }
 
 .nav-link {
-  font-family: 'Kenia', sans-serif;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Kenia", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 /* CARAOUSEL  */
@@ -32,20 +31,17 @@ body {
 }
 
 .wrapper {
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 50px;
   border-radius: 10px;
   overflow: hidden;
   border: 6px solid;
 }
-
 .wrapper .slides .images img {
-  height: 440px;
-  width: 1331px;
-  scroll-padding-top: 10px;
+  height: 400px;
+  width: 100%;
 }
-
 #slide-1:target ~ .images {
   margin-left: 0%;
 }
@@ -242,5 +238,3 @@ footer {
   background-color: #2dacb4;
   margin-top: 100px;
 }
-
-
