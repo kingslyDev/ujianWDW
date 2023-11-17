@@ -83,6 +83,7 @@ hr {
   background-color: #323030;
   overflow: hidden;
   border-radius: 15px;
+  margin-left: 500px;
 }
 
 #progress-bar {
