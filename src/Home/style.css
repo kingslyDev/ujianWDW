@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
 
 body {
   padding: 0;
@@ -10,16 +10,29 @@ body {
 
 .navbar {
   background-color: #2dacb4;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  height: 70px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Kenia", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .navbar-brand {
-  font-family: 'Kenia', sans-serif;
-  font-size: 200%;
+  font-family: "Kenia", sans-serif;
+  font-size: 30px;
 }
 
 .nav-link {
-  font-family: 'Kenia', sans-serif;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Kenia", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 /* CARAOUSEL  */
@@ -31,20 +44,18 @@ body {
 }
 
 .wrapper {
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 50px;
   border-radius: 10px;
   overflow: hidden;
   border: 6px solid;
 }
-
 .wrapper .slides .images img {
   height: 440px;
-  width: 100%;
-  padding: 0;
+  width: 1331px;
+  scroll-padding-top: 10px;
 }
-
 #slide-1:target ~ .images {
   margin-left: 0%;
 }
@@ -188,15 +199,15 @@ section.ruang-donasi {
 }
 
 section.ruang-donasi div {
-  width: 400px;
+  width: 410px;
   height: 345px;
   border-radius: 15px;
   background-color: rgb(237, 236, 236);
 }
 
 section.ruang-donasi div img {
-  width: 400px;
-  height: 200px;
+  width: 410px;
+  height: 205px;
   object-fit: cover;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
