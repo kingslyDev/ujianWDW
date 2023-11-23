@@ -175,10 +175,11 @@ h2 {
 .buttonnext {
   margin: 0 auto 80px;
   display: block;
-  width: 313px;
+  width: 513px;
   height: 50px;
   background-color: #46ba7b;
   color: white;
+  border-radius: 14px;
   border: solid 1px;
 }
 

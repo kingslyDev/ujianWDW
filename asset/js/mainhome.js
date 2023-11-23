@@ -22,7 +22,6 @@ HideDonasi.addEventListener('click', () => {
 
 const data = [
   {
-    text: 'JUZ 30',
     title: "An-Naba'",
     artist: 'Muzammil Hasballah',
     song: '/asset/music/an naba.mp3',
