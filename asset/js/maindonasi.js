@@ -38,22 +38,22 @@ function continueToNextPage() {
 
   switch (selectedAmount) {
     case 10000:
-      nextPage = basePath + 'button1.html';
+      nextPage = basePath + 'pay10.html';
       break;
     case 25000:
-      nextPage = basePath + 'button2.html';
+      nextPage = basePath + 'pay25.html';
       break;
     case 50000:
-      nextPage = basePath + 'button3.html';
+      nextPage = basePath + 'pay50.html';
       break;
     case 100000:
-      nextPage = basePath + 'button4.html';
+      nextPage = basePath + 'pay100.html';
       break;
     case 200000:
-      nextPage = basePath + 'button5.html';
+      nextPage = basePath + 'pay200.html';
       break;
     case 500000:
-      nextPage = basePath + 'button6.html';
+      nextPage = basePath + 'pay500.html';
       break;
     default:
       nextPage = basePath + 'index.html';
