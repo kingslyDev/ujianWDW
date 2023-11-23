@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="R-icon" href="/asset/css/styledonasi.css" />
+    <link rel="shortcut icon" type="R-icon" href="/asset/img/icon/RUANG.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link style & boostrap &js -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/asset/css/styledonasi.css" />
+
+    <title>Ruang Berkah</title>
+  </head>
+  <body>
+    <!-- AWAL NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/src/Home/index.html"> <img src="/asset/img/icon/logoR.gif" alt="LOGO" class="img-logo" /> RUANG BERKAH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/src/Home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/src/Aboutus/index.html
+              "
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- AWAL SEKILAS -->
+    <div class="fotodonasi">
+      <div class="container">
+        <img src="/asset/img/donasi/PALESTIN1A.png" />
+        <h1>Bantu Kalimantan Barat Bernapas!</h1>
+        <p>
+          Kebakaran Hutan dan Lahan (Karhutla) yang terjadi di sejumlah titik di wilayah Kalimantan Barat (Kalbar) selama beberapa hari terakhir memicu kabut asap tebal. Sebanyak 1.985 titik panas (hotspot) penyebab karhutla terpantau Badan
+          Metereologi Klimatologi dan Geofisika (BMKG) Kalbar, Karhutla ini terjadi di 5 daerah di Kalbar yakni Kota Pontianak, Kab.Kubu Raya, Kab. Sambas, Kab.Kapuas Hulu, serta Kab. Kayong Utara.Merespon bencana Karhutla tersebut, Tim
+          BAZNAS Tanggap Bencana langsung bergerak dengan membantu proses pemadaman kobaran api serta membantu warga yang terdampak yang terdampak kabut asap.
+        </p>
+      </div>
+
+      <hr />
+    </div>
+    <!-- AKHIR SEKILAS -->
+
+    <!-- PROGGRESBAR -->
+    <div class="progress-wrapper">
+      <div class="text-wrapper">
+        <p class="above-progress">Target : Rp1.000.000.000</p>
+      </div>
+      <div id="progress-bar-container">
+        <div id="progress-bar">%</div>
+      </div>
+      <div class="text-wrapper">
+        <p class="below-progress">Terkumpul : Rp600.000.000</p>
+      </div>
+    </div>
+
+    <!-- AKHIR PROGRESBAR -->
+
+    <!-- AWAL BUTTON NOMINAL -->
+
+    <div class="container1">
+      <h2>Nominal Donasi</h2>
+      <div class="button-row" id="buttonRow">
+        <!-- Baris 1 -->
+        <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(10000, this)">Rp10.000</button>
+        <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(25000, this)">Rp25.000</button>
+        <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(50000, this)">Rp50.000</button>
+        <!-- Baris 2 -->
+        <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(100000, this)">Rp100.000</button>
+        <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(200000, this)">Rp200.000</button>
+        <button type="button" class="btn-custom" onclick="changeColor(this); selectAmount(500000, this)">Rp500.000</button>
+      </div>
+      <div class="nextbut">
+        <button id="continueButton" class="buttonnext" onclick="continueToNextPage()">LANJUT PEMBAYARAN</button>
+      </div>
+    </div>
+    <!-- AKHIR BUTTON NOMINAL -->
+  </body>
+  <!-- RESOURE JS -->
+  <script src="/asset/js/maindonasi.js"></script>
+</html>
