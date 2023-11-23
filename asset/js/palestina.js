@@ -34,7 +34,7 @@ function selectAmount(amount, button) {
 
 function continueToNextPage() {
   let nextPage = '';
-  const basePath = '/src/Payment/'; // Ganti dengan path direktori Anda
+  const basePath = '/src/Payment/'; 
 
   switch (selectedAmount) {
     case 10000:

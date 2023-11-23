@@ -2,18 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="R-icon" href="/asset/img/icon/RUANG.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Payment-R</title>
+    <link rel="stylesheet" href="/asset/css/stylepayment.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Ruang Ngaji</a>
+    <!-- NAVBAR AWAL -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="javascript:void(0);" onclick="goBack()"> RUANG MAKMUR</a>
     </nav>
+    <!-- NAVBAR AKHIR -->
     <main>
       <h3>Metode Pembayaran :</h3>
       <section>
@@ -25,34 +28,42 @@
           <i class="bi bi-caret-up"></i>
         </div>
         <div class="emoney">
+          <a href="https://app.sandbox.midtrans.com/payment-links/1700752754989" target="blank">
           <div class="gopay">
-            <img src="../../img/gopay.png" alt="Gopay" />
+            <img src="/asset/img/payment_asset/gopay.png" alt="Gopay" />
             <div class="pay-desc">
               <h6>Pembayaran QR</h6>
               <p>Pembayaran dengan aplikasi pembayaran pilihan anda.</p>
             </div>
           </div>
+        </a>
           <div class="shopeepay">
-            <img src="../../img/shopeepay.png" alt="ShopeePay" />
+            <img src="/asset/img/payment_asset/shopeepay.png" alt="ShopeePay" />
+            <a href="https://app.sandbox.midtrans.com/payment-links/1700752754989" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran Shopeepay</h6>
               <p>Pembayaran melalui akun Shopeepay kamu.</p>
             </div>
           </div>
+        </a>
           <div class="dana">
-            <img src="../../img/dana.png" alt="Dana" />
+            <img src="/asset/img/payment_asset/dana.png" alt="Dana" />
+            <a href="https://app.sandbox.midtrans.com/payment-links/1700752754989" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran Dana</h6>
               <p>Pembayaran melalui akun dana kamu.</p>
             </div>
           </div>
+        </a>
           <div class="linkaja">
-            <img src="../../img/linkaja.svg" alt="LinkAja" />
+            <img src="/asset/img/payment_asset/linkaja.svg" alt="LinkAja" />
+            <a href="https://app.sandbox.midtrans.com/payment-links/1700752754989" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran LinkAja</h6>
               <p>Pembayaran melalui akun LinkAja kamu.</p>
             </div>
           </div>
+        </a>
         </div>
       </section>
       <section>
@@ -65,44 +76,55 @@
         </div>
         <div class="bank">
           <div class="bri">
-            <img src="../../img/bri.webp" alt="bri" />
+            <img src="/asset/img/payment_asset/bri.webp" alt="bri" />
+            <a href="https://app.sandbox.midtrans.com/payment-links/1700752754989" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran BRI</h6>
               <p>Pembayaran melalui rekening BRI anda.</p>
             </div>
           </div>
+        </a>
           <div class="bca">
-            <img src="../../img/bca.png" alt="bca" />
+            <img src="/asset/img/payment_asset/bca.png" alt="bca" />
+            <a href="https://app.sandbox.midtrans.com/payment-links/1700752754989" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran BCA</h6>
               <p>Pembayaran melalui rekening BCA kamu.</p>
             </div>
           </div>
+        </a>
           <div class="mandiri">
-            <img src="../../img/mandiri.webp" alt="mandiri" />
+            <img src="/asset/img/payment_asset/mandiri.webp" alt="mandiri" />
+            <a href="https://app.sandbox.midtrans.com/payment-links/1700752754989" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran MANDIRI</h6>
               <p>Pembayaran melalui rekening MANDIRI kamu.</p>
             </div>
           </div>
+        </a>
           <div class="bni">
-            <img src="../../img/bni.png" alt="bni" />
+            <img src="/asset/img/payment_asset/bni.png" alt="bni" />
+            <a href="https://app.sandbox.midtrans.com/payment-links/1700749485763" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran BNI</h6>
               <p>Pembayaran melalui rekening BNI kamu.</p>
             </div>
           </div>
+        </a>
           <div class="paypal">
-            <img src="../../img/paypal.png" alt="paypal" />
+            <img src="/asset/img/payment_asset/paypal.png" alt="paypal" />
+            <a href="https://www.paypal.com/webapps/shoppingcart/error?flowlogging_id=f556086be12bb&code=GENERIC_ERROR&mfid=1700750723155_f556086be12bb" target="blank">
             <div class="pay-desc">
               <h6>Pembayaran PAYPAL</h6>
               <p>Pembayaran melalui rekening PAYPAL kamu.</p>
             </div>
+          </a>
           </div>
         </div>
         </div>
       </section>
     </main>
   </body>
-  <script src="main.js"></script>
+  <script src="/asset/js/mainpayment.js"></script>
 </html>
+

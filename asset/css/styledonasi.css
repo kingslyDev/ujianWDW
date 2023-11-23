@@ -98,7 +98,7 @@ hr {
 
 #progress-bar {
   width: 30%;
-  height: 38px;
+  height: 3 8px;
   background-color: #46a364;
   text-align: center;
   line-height: 30px;
@@ -183,7 +183,7 @@ h2 {
   border: solid 1px;
 }
 
-/* SCREEN 768px */
+/* UNTUK LAYAR HP */
 @media screen and (max-width: 768px) {
   .navbar-brand {
     font-size: 150%;
