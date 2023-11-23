@@ -77,7 +77,7 @@ div.atm {
 }
 
 div.text-pay h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 div.ewallet i,
@@ -174,7 +174,7 @@ div.paypal img {
 }
 
 div.pay-desc h6 {
-  font-size: 23px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -182,4 +182,63 @@ div.pay-desc h6 {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* CSS sebelumnya tetap dipertahankan di sini */
+
+/* Media query untuk ukuran layar yang lebih kecil (misal: mobile) */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 0 3%;
+  }
+
+  div.emoney p,
+  div.bank p {
+    display: none;
+  }
+
+  div.gopay img {
+    margin-left: 20px;
+  }
+
+  div.shopeepay img {
+    margin-left: 30px;
+  }
+
+  div.dana img {
+    margin-left: 25px;
+  }
+
+  div.linkaja img {
+    margin-left: 40px;
+  }
+
+  div.bri img,
+  div.paypal img {
+    margin-left: 40px;
+  }
+
+  div.bca img {
+    margin-left: 30px;
+  }
+
+  div.mandiri img {
+    margin-left: 25px;
+  }
+
+  div.bni img {
+    margin-left: 35px;
+  }
+
+  div.gopay,
+  div.shopeepay,
+  div.dana,
+  div.linkaja,
+  div.bri,
+  div.bca,
+  div.mandiri,
+  div.bni,
+  div.paypal {
+    margin-top: 15px;
+  }
 }
