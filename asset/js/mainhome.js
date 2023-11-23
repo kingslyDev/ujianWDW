@@ -24,7 +24,7 @@ const data = [
   {
     title: 'Al-Fatihah',
     artist: 'Bilal Attaki',
-    song: '',
+    song: '../../asset/music/al fatihah.mp3',
   },
   {
     title: 'Al-Baqarah',
