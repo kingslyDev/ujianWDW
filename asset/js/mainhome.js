@@ -210,16 +210,6 @@ const data = [
 ];
 
 data.map((data) => {
-<<<<<<< HEAD
-  const songContain = document.createElement("div");
-  songContain.classList.add("song");
-
-  const idSong = document.createElement("div");
-  const TitleSong = document.createElement("h4");
-  const ArtSong = document.createElement("p");
-  const PlayIcon = document.createElement("i");
-  const SourceSong = document.createElement("audio");
-=======
   const songContain = document.createElement('div');
   songContain.classList.add('song');
 
@@ -228,17 +218,12 @@ data.map((data) => {
   const ArtSong = document.createElement('p');
   const PlayIcon = document.createElement('i');
   const SourceSong = document.createElement('audio');
->>>>>>> f8c85ef39c9d58a2ad079326a8689bf36b7a1347
 
   TitleSong.innerText = data.title;
   ArtSong.innerText = data.artist;
   SourceSong.src = data.song;
 
-<<<<<<< HEAD
-  PlayIcon.classList.add("bi-play-circle-fill");
-=======
   PlayIcon.classList.add('bi-play-circle-fill');
->>>>>>> f8c85ef39c9d58a2ad079326a8689bf36b7a1347
 
   idSong.appendChild(TitleSong);
   idSong.appendChild(ArtSong);
@@ -251,35 +236,6 @@ data.map((data) => {
 });
 
 let isPlaying = null;
-<<<<<<< HEAD
-const isSongs = document.querySelectorAll(".song");
-
-isSongs.forEach((song) => {
-  const togglePlayPause = song.querySelector(".bi-play-circle-fill");
-  const isAudio = song.querySelector("audio");
-
-  isAudio.addEventListener("ended", () => {
-    togglePlayPause.classList.remove("bi-pause-circle-fill");
-    togglePlayPause.classList.add("bi-play-circle-fill");
-    isPlaying = null;
-  });
-
-  togglePlayPause.addEventListener("click", () => {
-    if (isPlaying && isPlaying !== isAudio) {
-      isPlaying.pause();
-      isPlaying.previousElementSibling.classList.remove("bi-pause-circle-fill");
-      isPlaying.previousElementSibling.classList.add("bi-play-circle-fill");
-    }
-
-    if (isAudio !== isPlaying || isAudio.paused) {
-      togglePlayPause.classList.remove("bi-play-circle-fill");
-      togglePlayPause.classList.add("bi-pause-circle-fill");
-      isAudio.play();
-      isPlaying = isAudio;
-    } else {
-      togglePlayPause.classList.remove("bi-pause-circle-fill");
-      togglePlayPause.classList.add("bi-play-circle-fill");
-=======
 const isSongs = document.querySelectorAll('.song');
 
 isSongs.forEach((song) => {
@@ -307,7 +263,6 @@ isSongs.forEach((song) => {
     } else {
       togglePlayPause.classList.remove('bi-pause-circle-fill');
       togglePlayPause.classList.add('bi-play-circle-fill');
->>>>>>> f8c85ef39c9d58a2ad079326a8689bf36b7a1347
       isAudio.pause();
       isPlaying = null;
     }
