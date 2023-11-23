@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-color: #2dacb4;
+  background-color: #fff;
   display: flex;
   align-items: center;
   padding: 0 10%;
@@ -17,12 +17,18 @@ body {
 }
 
 .navbar ul {
+  margin-top: 10px;
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
   font-family: "Kenia", sans-serif;
   font-family: "Nanum Gothic", sans-serif;
+}
+
+.navbar img {
+  height: 50px;
 }
 
 .navbar-brand {
@@ -175,6 +181,10 @@ div.song i {
 
 div.song i:hover {
   font-size: 35px;
+}
+
+div.song iframe {
+  display: none;
 }
 
 @keyframes SlideUp {
