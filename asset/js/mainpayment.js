@@ -25,3 +25,8 @@ MoneyArrow.addEventListener('click', () => {
 BankArrow.addEventListener('click', () => {
   toggleSwitch(isBank, BankArrow);
 });
+
+// GOBACK
+function goBack() {
+  window.history.back();
+}
