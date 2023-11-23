@@ -1,32 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@300&family=Indie+Flower&family=Kenia&family=Nanum+Gothic:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@300&family=Indie+Flower&family=Kenia&family=Nanum+Gothic:wght@700&display=swap");
 
 @font-face {
-  font-family: 'Handmade';
-  src: url(/font/Handmade.otf) format('opentype');
-  font-family: 'OldNewspaperTypes';
-  src: url(/font/OldNewspaperTypes.ttf) format('woff2');
+  font-family: "Handmade";
+  src: url(/font/Handmade.otf) format("opentype");
+  font-family: "OldNewspaperTypes";
+  src: url(/font/OldNewspaperTypes.ttf) format("woff2");
 }
 
 @font-face {
-  font-family: 'Helvetica';
-  src: url(/font/Helvetica.otf) format('woff');
+  font-family: "Helvetica";
+  src: url(/font/Helvetica.otf) format("woff");
 }
 
 body {
   padding: 0;
   margin: 0;
-}
-
-.navbar {
-  background-color: #4dbd90;
-}
-
-.navbar-brand {
-  font-family: 'Kenia', sans-serif;
-  font-size: 200%;
+  overflow-x: hidden;
 }
 
 .navbar-brand img {
@@ -35,9 +27,36 @@ body {
   margin: auto;
 }
 
+.navbar {
+  background-color: #4dbd90;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  height: 70px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "Kenia", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.navbar img {
+  height: 50px;
+}
+
+.navbar-brand {
+  font-family: "Kenia", sans-serif;
+  font-size: 30px;
+}
+
 .nav-link {
-  font-family: 'Kenia', sans-serif;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Kenia", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .img {
@@ -59,7 +78,7 @@ body {
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   float: right;
   margin-top: 130px;
   margin-right: 50px;
@@ -68,7 +87,7 @@ h1 {
 }
 
 p {
-  font-family: 'Fredoka', sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-size: 17px;
   margin-top: 60px;
   text-justify: auto;
