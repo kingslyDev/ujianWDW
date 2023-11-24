@@ -3,14 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="shortcut icon" type="R-icon" href="/asset/img/icon/RUANG.png" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <title>Our Team Section</title>
-    <link rel="stylesheet" href="/asset/css/style.about.css" />
+    <link rel="stylesheet" href="/asset/css/merchantdise.css" />
   </head>
   <body>
     <!-- AWAL NAVBAR -->
@@ -20,34 +15,19 @@
           <img src="/asset/img/icon/logoR.gif" alt="LOGO" class="img-logo" />
           RUANG NGAJI</a
         >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/src/Home/index.html"
-                >Home</a
-              >
+              <a class="nav-link active" aria-current="page" href="/src/Home/index.html">Home</a>
             </li>
             <li class="nav-ixtem">
-              <a class="nav-link" href="/src/Aboutus/index.html"
-                >Tentang Kami</a
-              >
+              <a class="nav-link" href="/src/Aboutus/index.html">Tentang Kami</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/src/contactus/index.html">Kontak Kami</a>
+              <a class="nav-link" href="#">Kontak Kami</a>
             </li>
           </ul>
         </div>
@@ -55,49 +35,30 @@
     </nav>
     <!-- AKHIR NAVBAR -->
 
-    <div class="wrapper">
-      <h1>Our Team</h1>
-      <div class="team">
-        <div class="team_member">
-          <div class="team_img">
-            <img src="/asset/img/aboutus/wildan.jpg" alt="Team_image" />
-          </div>
-          <h3>Wildan</h3>
-          <p class="role">Informatics engineering student</p>
-          <p>
-            Holaa!! Perkenalkan namaku Wildan Krisna Hakim biasa dipanggil
-            pragos, aku mahasiswa semester 1 Teknik Informatika di Politeknik
-            Elektronika Negeri Surabaya. "Ruang Makmur" adalah project website
-            pertamaku bersama rekan satu kelompokku lainnya
-          </p>
+    <!-- CARD -->
+    <h1>Merchantdise Ruang Berkah</h1>
+    <div class="card-container">
+      <div class="card" style="width: 25rem; display: inline-block; margin-right: 20px">
+        <img src="/asset/img/carousel/flashdisk.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Flashdisk Murotal</h5>
+          <p class="card-text">Dapatkan rekaman exclusive dan jernih Al-Quran</p>
+          <a href="https:tokopedia.com" class="btn btn-primary">Lihat</a>
         </div>
-        <div class="team_member">
-          <div class="team_img">
-            <img src="/asset/img/aboutus/ahmad.jpg" alt="Team_image" />
-          </div>
-          <h3>Achmad</h3>
-          <p class="role">Informatics engineering student</p>
-          <p>
-            Assalammualaikum, Perkenalkan namaku Achmad Risel Araby biasanya
-            teman-teman memanggilku Achmad. Aku adalah mahasiswa Teknik
-            Informatika semester 1 di PENS, semoga project kami "Ruang Makmur"
-            bisa berguna untuk kalian semua.
-          </p>
-        </div>
-        <div class="team_member">
-          <div class="team_img">
-            <img src="/asset/img/aboutus/ghaly.jpg" alt="Team_image" />
-          </div>
-          <h3>Ghaly</h3>
-          <p class="role">Informatics engineering student</p>
-          <p>
-            haloo!!, Aku Ghaly Abrarian Putra yang biasa dipanggil Ghaly, Aku
-            sedang berkuliah di Politeknik Elektronika Negeri Surabaya, dengan
-            jurusan Teknik Informatika.
-          </p>
+      </div>
+
+      <div class="card" style="width: 25rem; display: inline-block">
+        <img src="/asset/img/carousel/BUKU.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Buku tuntunan mengaji</h5>
+          <p class="card-text">Dapatkan Materi exclusive belajar Al-Quran</p>
+          <a href="https:tokopedia.com" class="btn btn-primary">Lihat</a>
         </div>
       </div>
     </div>
+
+    <!-- AKHIR CARD -->
+
     <!-- FOOOTER -->
 
 </section>
@@ -141,7 +102,7 @@
             <a href="/src/Home/index.html" class="text-reset">Ruang Ngaji</a>
           </p>
           <p>
-            <a href="/src/merchantdise.html" class="text-reset">Merchandise</a>
+            <a href="/src/merchantdise/merchantdise.html" class="text-reset">Merchandise</a>
           </p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -158,7 +119,8 @@
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <div class="contact">
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <h6 class="text-uppercase fw-bold mb-4">C
+              ontact</h6>
           <p><i class="fas fa-home me-3 text-secondary"></i>Jl. TMB Raya ITS, Surabaya </p>
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>
@@ -177,6 +139,6 @@
   </div>
 </footer>
 
-<!-- AKHIR FOOTER -->
+    <!-- AKHIR FOOOTER -->
   </body>
 </html>

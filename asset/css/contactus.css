@@ -192,3 +192,29 @@ button.contact_form_submit {
   border-radius: 30px;
   overflow: hidden;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #4dbd90;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .navbar img {
+    height: auto;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+  }
+}
