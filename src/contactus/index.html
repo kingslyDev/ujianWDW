@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <link rel="shortcut icon" type="R-icon" href="/asset/img/icon/RUANG.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ruang Berkah</title>
-
-    <!-- BOOSTRAP AND STYLE -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-
+    <title>Our Team Section</title>
     <link rel="stylesheet" href="/asset/css/contactus.css" />
   </head>
-
   <body>
+    <!-- AWAL NAVBAR -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="/src/Home/index.html"> <img src="/asset/img/icon/logoR.gif" alt="LOGO" class="img-logo" /> RUANG BERKAH</a>
+        <a class="navbar-brand" href="/src/Home/index.html">
+          <img src="/asset/img/icon/logoR.gif" alt="LOGO" class="img-logo" />
+          RUANG NGAJI</a
+        >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +23,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/src/Home/index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-ixtem">
               <a class="nav-link" href="/src/Aboutus/index.html">Tentang Kami</a>
             </li>
             <li class="nav-item">
@@ -35,5 +33,87 @@
         </div>
       </div>
     </nav>
+    <!-- AKHIR NAVBAR -->
+    <!-- TEMPLATE FORM  -->
+    <section class="contact_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="contact_inner">
+              <div class="row">
+                <div class="col-md-10">
+                  <div class="contact_form_inner">
+                    <div class="contact_field">
+                      <h3>Contatc Us</h3>
+                      <p>Hubungi kami kapapun, kami usahakan untuk membalas anda secepat mungkin</p>
+                      <input type="text" class="form-control form-group" placeholder="Name" />
+                      <input type="text" class="form-control form-group" placeholder="Email" />
+                      <textarea class="form-control form-group" placeholder="Message"></textarea>
+                      <button class="contact_form_submit">Send</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="right_conatct_social_icon d-flex align-items-end">
+                    <div class="socil_item_inner d-flex">
+                      <li>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contact_info_sec">
+                <h4>Contact Info</h4>
+                <div class="d-flex info_single align-items-center">
+                  <i class="fas fa-headset"></i>
+                  <span>+62 811 3344 762</span>
+                </div>
+                <div class="d-flex info_single align-items-center">
+                  <i class="fas fa-envelope-open-text"></i>
+                  <span>info@ruangberkah.com</span>
+                </div>
+                <div class="d-flex info_single align-items-center">
+                  <i class="fas fa-map-marked-alt"></i>
+                  <span>Bantu Yayasan Ruang Berkah Menyalurkan Dana Sumbangan Untuk Sesama </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map_sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="map_inner">
+              <h4>Temukan kami di Google Maps!</h4>
+              <div class="map_bind">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15830.767908111202!2d112.7937557!3d-7.2758471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa10ea2ae883%3A0xbe22c55d60ef09c7!2sPoliteknik%20Elektronika%20Negeri%20Surabaya!5e0!3m2!1sid!2sid!4v1700779510992!5m2!1sid!2sid"
+                  width="100%"
+                  height="450"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AKHIR TEMPLATE FORM -->
   </body>
 </html>
